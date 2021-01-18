@@ -1,0 +1,104 @@
+body{
+	margin: 0%;
+	background-color: #131319 !important;
+	font-family: "Arial";
+	font-weight: bold;
+}
+header{
+	background: #000000;
+	padding: 2%;
+	text-align: right;
+
+}
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+	margin-right: 1%;
+	font-family: "Arial";
+	font-weight: bold;
+}
+nav a:hover{
+	color: #FFC400;
+}
+#main{
+	margin: 5%;
+	color: #ffffff;
+	
+}
+h1{
+	font-size: 400%;
+	color: #66ffcc;
+}
+p{
+	width: 25%;
+}
+input{
+	padding: 1%;
+}
+.label{
+	background-color: #1a1a1a;
+	color: #ffffff;
+	border:none;
+	margin: 3px;
+	width: 30%;
+}
+#name{
+	width: 13.5%;
+	margin: 3px;
+	margin-right: 4px;
+}
+#email{
+	width: 14%;
+	margin: 0px;
+}
+#message{
+	height: 100px;	
+}
+#submit{
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	border-color: #66ffcc;
+	color: #66ffcc;
+}
+.fa-facebook {  
+	padding: 1%;
+  	background: #000000;  
+  	color: white;  
+  	text-decoration: none;
+} 
+.fa-facebook:hover{
+	color: #FFC400;
+} 
+.fa-instagram{
+	padding: 1%;
+	background: #000000;  
+  	color: white;  
+  	text-decoration: none;
+}
+.fa-instagram:hover{
+	color: #FFC400;
+} 
+.fa-linkedin{
+	padding: 1%;
+	background: #000000;  
+  	color: white;  
+  	text-decoration: none;
+}.fa-linkedin:hover{
+	color: #FFC400;
+} 
+.fa-envelope{
+	padding: 1%;
+	background: #000000;  
+  	color: white;  
+  	text-decoration: none;
+}.fa-envelope:hover{
+	color: #FFC400;
+} 
+#footer{
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	background: #000000;
+	color:#d9d9d9;
+	padding: 3%;	
+}

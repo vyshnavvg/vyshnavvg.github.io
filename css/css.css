@@ -8,6 +8,7 @@ header{
 	background: #000000;
 	padding: 2%;
 	text-align: right;
+
 }
 nav a{
 	text-decoration: none;
@@ -38,8 +39,15 @@ section{
 	opacity: 0.4;
 
 }
+span{
+	visibility: hidden;
+}
 #meckartans:hover{
 	opacity: 1;
+}
+#meckartans:hover>span{
+	visibility: visible;
+	
 }
 #roborex{
 	color: #ffffff;
@@ -57,6 +65,9 @@ section{
 }
 #roborex:hover{
 	opacity: 1;
+}
+#roborex:hover>span{
+	visibility: visible;
 }
 #links{
 	display: block;
